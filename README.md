@@ -26,7 +26,7 @@ Instead of pasting long Intuit product guidance into prompts, these plugins pack
 
 | Plugin | Description | Status |
 | --- | --- | --- |
-| [**intuit-developer**](plugins/intuit-developer) | Build QuickBooks integrations with the Intuit Developer Platform: workspace and app setup, sandbox management, browser OAuth, and verified QuickBooks API calls | Available |
+| [**intuit-developer**](plugins/intuit-developer) | Build QuickBooks integrations with the [Intuit Developer Platform](https://developer.intuit.com): workspace and app setup, sandbox management, browser OAuth, and verified QuickBooks API calls | Available |
 
 See each plugin's README for its skills, MCP servers, and usage details.
 
@@ -81,13 +81,11 @@ To install a plugin in Codex:
 ## Requirements
 
 - [Claude Code](https://code.claude.com/docs/en/plugins) with plugin support, or [Codex](https://developers.openai.com/codex/plugins/build)
-- An [Intuit Developer](https://developer.intuit.com) account with accepted Terms of Service
+- An Intuit account
 - A browser on the same machine for the OAuth sign-in
-
 
 ## Additional resources
 
-- [Intuit Developer Platform](https://developer.intuit.com)
 - [Claude Code plugins documentation](https://code.claude.com/docs/en/plugins)
 - [Codex plugins documentation](https://developers.openai.com/codex/plugins/build)
 
