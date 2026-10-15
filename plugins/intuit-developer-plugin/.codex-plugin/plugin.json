@@ -1,0 +1,36 @@
+{
+  "name": "intuit-developer-plugin",
+  "version": "1.5.2",
+  "description": "Build QuickBooks integrations with the Intuit Developer Platform — workspace and app setup, sandbox management, browser OAuth, and verified API requests.",
+  "author": {
+    "name": "Intuit Inc."
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "intuit-developer-platform",
+    "developer-tools",
+    "quickbooks",
+    "oauth",
+    "developer-portal",
+    "sandbox"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Intuit Developer Plugin",
+    "shortDescription": "Build QuickBooks integrations with Intuit Developer Platform",
+    "longDescription": "Set up a developer workspace and app, complete browser OAuth, manage a sandbox, and generate verified QuickBooks API calls through Intuit Developer Platform.",
+    "developerName": "Intuit Inc.",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Help me build a QuickBooks app.",
+      "Connect me to Intuit Developer Platform.",
+      "What QuickBooks API do I use to list invoices?"
+    ]
+  }
+}

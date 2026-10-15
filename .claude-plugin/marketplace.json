@@ -1,0 +1,22 @@
+{
+  "name": "intuit-marketplace",
+  "owner": {
+    "name": "Intuit"
+  },
+  "plugins": [
+    {
+      "name": "intuit-developer-plugin",
+      "source": "./plugins/intuit-developer-plugin",
+      "description": "Build QuickBooks integrations with Intuit Developer Platform — workspace and app setup, sandbox management, browser OAuth, and generate verified QuickBooks API calls through the Intuit Developer Platform.",
+      "version": "1.5.2",
+      "tags": [
+        "intuit-developer-platform",
+        "developer-tools",
+        "quickbooks",
+        "oauth",
+        "developer-portal",
+        "sandbox"
+      ]
+    }
+  ]
+}
