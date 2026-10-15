@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "intuit-developer-plugin",
+      "name": "intuit-developer",
       "source": {
         "source": "local",
-        "path": "./plugins/intuit-developer-plugin"
+        "path": "./plugins/intuit-developer"
       },
       "policy": {
         "installation": "AVAILABLE",
