@@ -1,14 +1,25 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "intuit-marketplace",
+  "description": "Official Intuit plugins that equip AI coding agents with the skills and tools to build on the Intuit Developer Platform and QuickBooks.",
+  "version": "1.0.0",
   "owner": {
-    "name": "Intuit"
+    "name": "Intuit Inc.",
+    "url": "https://github.com/intuit/intuit-plugins-official"
   },
   "plugins": [
     {
       "name": "intuit-developer",
+      "displayName": "Intuit Developer",
       "source": "./plugins/intuit-developer",
-      "description": "Build QuickBooks integrations with Intuit Developer Platform — workspace and app setup, sandbox management, browser OAuth, and generate verified QuickBooks API calls through the Intuit Developer Platform.",
-      "version": "1.5.3",
+      "description": "Build QuickBooks integrations with the Intuit Developer Platform — workspace and app setup, sandbox management, browser OAuth, and generate verified QuickBooks API calls through the Intuit Developer Platform.",
+      "author": {
+        "name": "Intuit Inc."
+      },
+      "homepage": "https://github.com/intuit/intuit-plugins-official/tree/main/plugins/intuit-developer",
+      "repository": "https://github.com/intuit/intuit-plugins-official",
+      "license": "Apache-2.0",
+      "category": "development",
       "tags": [
         "intuit-developer-platform",
         "developer-tools",
