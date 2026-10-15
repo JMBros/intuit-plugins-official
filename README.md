@@ -5,19 +5,19 @@
 
 ## Intuit Plugin Marketplace
 
-The Intuit Plugin Marketplace is Intuit's official catalog of agent plugins. They give AI coding agents the skills and tools to build on the [Intuit Developer Platform](https://developer.intuit.com) and QuickBooks. Plugins currently support **Claude Code** and **Codex**.
+The Intuit Plugin Marketplace is Intuit's official catalog of agent plugins. They give AI agents the skills and tools to work with Intuit products and services. Plugins currently support **Claude Code** and **Codex**.
 
-Instead of pasting long Intuit and QuickBooks guidance into prompts, these plugins package it as reusable, versioned capabilities that your agent invokes when relevant. This makes agent behavior more predictable, keeps context small, and helps teams get consistent results. A single agent plugin can include:
+Instead of pasting long Intuit product guidance into prompts, these plugins package it as reusable, versioned capabilities that your agent invokes when relevant. This makes agent behavior more predictable, keeps context small, and helps teams get consistent results. A single agent plugin can include:
 
-- **Agent skills**: Structured workflows and guardrails that guide the agent through multi-step tasks such as setting up a QuickBooks app, completing OAuth, or diagnosing API failures.
-- **MCP servers**: Connections to Intuit services that give the agent live, authenticated access to your developer workspace, apps, sandboxes, and QuickBooks API metadata.
+- **Agent skills**: Structured workflows and guardrails that guide the agent through multi-step tasks such as setting up an app, completing OAuth, or diagnosing API failures.
+- **MCP servers**: Connections to Intuit services that give the agent live, authenticated access to data and APIs at runtime.
 - **References**: Workflow documentation that skills read progressively, so detailed guidance loads only when it's needed.
 
 ## Best practices
 
 - Review generated code before you run or ship it, especially OAuth handling, secret storage, and API calls.
 - Use plugins to speed up your work, not to replace your own judgment.
-- Keep plugins updated to get the latest Intuit Developer Platform guidance.
+- Keep plugins updated to get the latest Intuit guidance.
 - Request only the OAuth scopes your app needs.
 - Never paste client secrets or tokens into chat. Put them in your local `.env` or secret store yourself.
 - Use sandbox companies for development and testing.

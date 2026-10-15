@@ -1,5 +1,6 @@
 {
   "name": "intuit-marketplace",
+  "description": "Official Intuit plugins that equip AI agents with skills and tools to work with Intuit products and services.",
   "interface": {
     "displayName": "Intuit Official Marketplace"
   },
