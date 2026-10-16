@@ -43,8 +43,11 @@ directly from the `portal_url` Keys page into the local `.env` file — the MCP
 never returns `client_secret`, so the agent never receives or writes it. Ensure
 `.env` is listed in `.gitignore`, never print the secret, and never commit or
 place it in source, `.env.example`, logs, or shell history.
-Write only the non-secret values to `.env.example`. Before starting the app,
-verify that both credentials are present without printing either value.
+Write only the non-secret values to `.env.example`. Never read, cat, grep, or
+otherwise open `.env` or any other file holding the secret. Before starting the
+app, ask the developer to confirm that `CLIENT_ID` and `CLIENT_SECRET` are set
+in their own environment; the app itself fails fast at startup if either is
+missing, without printing the values.
 
 ### Making `.env` easy to reach in the AI coding tool
 

@@ -1,6 +1,6 @@
 {
   "name": "intuit-developer",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Build QuickBooks integrations with the Intuit Developer Platform — workspace and app setup, sandbox management, browser OAuth, and verified API requests.",
   "author": {
     "name": "Intuit Inc."
