@@ -3,7 +3,7 @@
   "version": "1.6.2",
   "description": "Build QuickBooks integrations with the Intuit Developer Platform — workspace and app setup, sandbox management, browser OAuth, and verified API requests.",
   "author": {
-    "name": "Intuit Inc."
+    "name": "Intuit"
   },
   "license": "Apache-2.0",
   "keywords": [
@@ -20,7 +20,7 @@
     "displayName": "Intuit Developer",
     "shortDescription": "Build QuickBooks integrations with Intuit Developer Platform",
     "longDescription": "Set up a developer workspace and app, complete browser OAuth, manage a sandbox, and generate verified QuickBooks API calls through Intuit Developer Platform.",
-    "developerName": "Intuit Inc.",
+    "developerName": "Intuit",
     "category": "Developer Tools",
     "capabilities": [
       "Read",
