@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "quickbooks-labs",
+  "displayName": "QuickBooks Labs",
+  "description": "QuickBooks bookkeeping for small businesses: bank feeds, receipts, and reports.",
+  "author": {
+    "name": "Intuit"
+  },
+  "homepage": "https://github.intuit.com/nocode-execution/project-spark/tree/master/claudebooks",
+  "repository": "https://github.intuit.com/nocode-execution/project-spark",
+  "license": "UNLICENSED",
+  "keywords": [
+    "quickbooks",
+    "accounting",
+    "quickbooks-labs",
+    "boon",
+    "mcp"
+  ],
+  "version": "4.7.0"
+}

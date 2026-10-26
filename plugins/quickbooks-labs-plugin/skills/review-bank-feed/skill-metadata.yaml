@@ -1,0 +1,31 @@
+metadata-schema-version: 1.0.0
+# Written by the release pipeline: the plugin version at which this skill's
+# content last changed. Do not hand-edit — an edit here is overwritten on the
+# next release that touches the skill.
+skill-version: 4.7.0
+
+skills-registry-metadata:
+  # Always "3p" for a skill shipped in a plugin: the consuming runtime is a
+  # third-party agent host. The plugin registry is the authoritative writer.
+  skill_type: "3p"
+
+  skill_owner_devportal_project_asset_id: "2312616001994156662"
+  tags: []
+
+  # Declare every MCP server this skill calls. Each must also appear in the
+  # plugin's .mcp.json, or promotion fails the mcp_satisfiability gate.
+  # dependencies:
+  #   mcp_server:
+  #     - mcp_asset_alias: Intuit.<bu>.<asset>
+  #       env:
+  #         e2e: "https://<host>-e2e.api.intuit.com/mcp"
+  #       tools: []
+
+  # No `evaluation:` block: it is optional, but once present it requires at
+  # least one eval target naming an Intuit agent image, which a third-party
+  # skill does not have. It is evaluated by this plugin's evals.json instead.
+  # fqn for reference: Intuit.nocode.execution.claudebooksplugin:review-bank-feed
+
+# cg-agent-runtime / omni are first-party consumer surfaces; a plugin skill
+# declares neither.
+skill-metadata: {}
