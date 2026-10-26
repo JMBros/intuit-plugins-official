@@ -5,9 +5,9 @@
   "author": {
     "name": "Intuit"
   },
-  "homepage": "https://github.intuit.com/nocode-execution/project-spark/tree/master/claudebooks",
-  "repository": "https://github.intuit.com/nocode-execution/project-spark",
-  "license": "UNLICENSED",
+  "homepage": "https://free.app.intuit.com/quickbooks-labs",
+  "repository": "https://github.com/intuit/intuit-plugins-official/tree/main/plugins/quickbooks-labs-plugin",
+  "license": "Apache-2.0",
   "keywords": [
     "quickbooks",
     "accounting",
